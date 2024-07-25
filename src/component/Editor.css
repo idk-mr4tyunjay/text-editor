@@ -1,0 +1,26 @@
+.rdw-editor{
+  height: 60vh;
+}
+
+.rdw-image-alignment-options-popup {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.rdw-image-alignment-option {
+  width: 24px;
+  height: 24px;
+  background-size: cover;
+  display: inline-block;
+}
+
+.rdw-dropdown-selectedtext {
+  color: inherit;
+  text-decoration: none;
+}
+.rdw-dropdown-optionwrapper::-webkit-scrollbar{
+  display: none;
+  scrollbar-width: none;
+}
+
