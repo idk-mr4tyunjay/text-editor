@@ -16,6 +16,15 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
+  "overrides": {
+    "draft-js": {
+      "immutable": "3.8.3"
+    },
+    "linkify-it": "6.1.0",
+    "@svgr/plugin-svgo": {
+      "svgo": "2.8.4"
+    }
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
